@@ -18,7 +18,7 @@ data <- data.frame(
 plot <- ggplot(data, aes(x = group, y = value, fill = group)) +
   geom_boxplot() +
   theme_minimal() +
-  scale_fill_manual(values = c("red", "orange", "yellow", "green", "blue"))+
+  scale_fill_manual(values = c("grey", "black", "yellow", "green", "blue"))+
   labs(title = "Science-themed Box Plot",
        x = "Groups",
        y = "Values",
