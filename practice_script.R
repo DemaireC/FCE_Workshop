@@ -1,3 +1,7 @@
+# FCE Workshop practice material
+# Author: James Sturges
+
+
 library(ggplot2)
 
 # Generate fake data
